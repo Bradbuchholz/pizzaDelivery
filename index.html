@@ -10,16 +10,14 @@
 
   <body>
     <div class="container">
+      <form id="pizzaOrder">
       
       <h2>Let's start your order</h2><br>
-      <div class="input-group mb-3">
-        <div class="input-group-prepend">
-          <span class="input-group-text" id="inputGroup-sizing-default">Your Name</span>
+      <div class="input-group">
+        <div class="form-group">
+          <label for="input">Your name</label>
+          <input id="name" class="form-control" type="text">
         </div>
-        <input type="text" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default">
-      </div>
-      <br>
-      <button type="button" class="btn" id="continue">Continue</button>
       
     </div>
 
@@ -191,9 +189,13 @@
           </div>
         </div>
       </div>
+        <button type="button" class="btn" id="makePizza">Complete your order</button>
 
     </div>
     
     </form>
+    <div id="yourPizza">      
+
+    </div>
   </body>
 </html>

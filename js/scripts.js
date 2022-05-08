@@ -1,4 +1,4 @@
-var Pizza = (forName, size, cheese, pepperoni, sausage, ham, bacon, mushrooms, onions, olives, peppers, ranchDrizzle) {
+var Pizza = function(forName, size, cheese, pepperoni, sausage, ham, bacon, mushrooms, onions, olives, peppers, ranchDrizzle) {
 this.forName = forName;
 this.size = size;
 this.cheese = cheese;
@@ -12,6 +12,7 @@ this.olives = olives;
 this.peppers = peppers;
 this.ranchDrizzle = ranchDrizzle;
 }
+
 
 Pizza.prototype.pricing = function() {
   var totalPrice = 0;

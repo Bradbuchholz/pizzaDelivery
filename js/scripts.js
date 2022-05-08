@@ -204,17 +204,14 @@ Pizza.prototype.toppings = function() {
 
 $(document).ready(function() {
   $('#pizzaOrder').submit(function(event) {
-    event.preventDefault
-    var orderedPizza = new Pizza ($("#name").val(), parseInt($("input:radio[name=size]:checked").val()), parseInt($("input:radio[name=cheese]:checked").val()), parseInt($("input:radio[name=pepperoni]:checked").val()), parseInt($("input:radio[name=sausage]:checked").val()), parseInt($("input:radio[name=ham]:checked").val()), parseInt($("input:radio[name=bacon]:checked").val()), parseInt($("input:radio[name=mushrooms]:checked").val()), parseInt($("input:radio[name=onions]:checked").val()), parseInt($("input:radio[name=olives]:checked").val()), parseInt($("input:radio[name=peppers]:checked").val()), parseInt($("input:radio[name=ranchDrizzle]:checked").val()));
+    event.preventDefault()
+    var orderedPizza = new Pizza($("#name").val(), parseInt($("input:radio[name=size]:checked").val()), parseInt($("input:radio[name=cheese]:checked").val()), parseInt($("input:radio[name=pepperoni]:checked").val()), parseInt($("input:radio[name=sausage]:checked").val()), parseInt($("input:radio[name=ham]:checked").val()), parseInt($("input:radio[name=bacon]:checked").val()), parseInt($("input:radio[name=mushrooms]:checked").val()), parseInt($("input:radio[name=onions]:checked").val()), parseInt($("input:radio[name=olives]:checked").val()), parseInt($("input:radio[name=peppers]:checked").val()), parseInt($("input:radio[name=ranchDrizzle]:checked").val()));
 
     var orderedPizzaPricing = orderedPizza.price();
     var orderedPizzaArray = orderedPizza.toppings();
 
-    $("#yourPizza").text(orderedPizzaPricing);
+    $("#yourPizza").text(`Price: ${orderedPizzaPricing}. Order: ${orderedPizzaArray.toString()}`);
+    
   });
-
-  $('#makePizza').on(function() {
-
-  });
-
+  
 });

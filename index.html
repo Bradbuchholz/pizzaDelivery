@@ -13,16 +13,12 @@
       <form id="pizzaOrder">
       
       <h2>Let's start your order</h2><br>
-      <div class="input-group">
-        <div class="form-group">
-          <label for="input">Your name</label>
-          <input id="name" class="form-control" type="text">
-        </div>
       
     </div>
 
     <div class="container">
       <h3>Build your pizza</h3>
+      <h4>size</h4>
       <div class="btn-group">
         <label class="btn">
           <input type="radio" name="size" value="1" checked>Small
@@ -44,13 +40,13 @@
         <label class="buttonToppings">Cheese</label><br>
         <div class="btn-group">
           <label class="btn">
-          <input type="radio" name="cheese" value="1">No Cheese
+          <input type="radio" name="cheese" value="1">Cheese
         </label>
         <label class="btn">
-          <input type="radio" name="cheese" value="2">Cheese
+          <input type="radio" name="cheese" value="2">Extra Cheese
         </label>
         <label class="btn">
-          <input type="radio" name="cheese" value="3">Extra Cheese
+          <input type="radio" name="cheese" value="3">Extra, Extra Cheese
         </label>
         </div>
       </div>
@@ -88,13 +84,13 @@
           <label class="buttonToppings">Ham</label><br>
           <div class="btn-group">
             <label class="btn">
-            <input type="radio" name="cheese" value="1">No Ham
+            <input type="radio" name="ham" value="1">No Ham
           </label>
           <label class="btn">
-            <input type="radio" name="cheese" value="2">Ham
+            <input type="radio" name="ham" value="2">Ham
           </label>
           <label class="btn">
-            <input type="radio" name="cheese" value="3">Extra Ham
+            <input type="radio" name="ham" value="3">Extra Ham
           </label>
           </div>
         </div>
@@ -187,14 +183,14 @@
             <input type="radio" name="ranchDrizzle" value="3">Extra Ranch Drizzle
           </label>
           </div>
-        </div>
+        </div><br>
       </div>
-        <button type="submit" class="btn" id="makePizza">Complete your order</button>
+        <button type="submit" class="btn">Complete your order</button>
 
     </div>
     
     </form>
-    <div id="yourPizza">      
+    <div id="yourPizza">     
 
     </div>
   </body>

@@ -1,5 +1,4 @@
-var Pizza = function(forName, size, cheese, pepperoni, sausage, ham, bacon, mushrooms, onions, olives, peppers, ranchDrizzle) {
-this.forName = forName;
+var Pizza = function(size, cheese, pepperoni, sausage, ham, bacon, mushrooms, onions, olives, peppers, ranchDrizzle) {
 this.size = size;
 this.cheese = cheese;
 this.pepperoni = pepperoni;

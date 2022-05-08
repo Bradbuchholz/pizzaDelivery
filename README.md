@@ -39,7 +39,7 @@ _This is a project made with HTML, JavaScript and CSS. It will take a pizza orde
 
 ## Known Bugs
 
-* _Does not currently allow user to input their name, delivery or pickup choice, delivery address or payment type_
+* _Does not currently allow user to input their name, delivery or pickup choice, delivery address, payment type or the ability to order multiple pizzas._
 
 ## License
 

@@ -14,7 +14,7 @@
 _This is a project made with HTML, JavaScript and CSS. It will take a pizza order and return a total price based on the users choices._
 
 ## Images
-[link](img/Tracks.png)
+[!](img/Constructors%20Medium.jpeg)
 ## Tests
 
 ### _Test 1_

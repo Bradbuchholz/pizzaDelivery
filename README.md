@@ -13,6 +13,8 @@
 
 _This is a project made with HTML, JavaScript and CSS. It will take a pizza order and return a total price based on the users choices._
 
+## Images
+![img/Tracks.png)
 ## Tests
 
 ### _Test 1_
